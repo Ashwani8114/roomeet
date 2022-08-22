@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main2.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <div class="logo">RoomMeet</div>
+
+        <ul class="nav-links">
+
+            <div class="menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li class="services">
+                    <a href="/">Choose Date</a>
+
+                    <ul class="dropdown">
+                        <li><a href="/">22/08/2022 </a></li>
+                        <li><a href="/">23/08/2022</a></li>
+                        <li><a href="/">24/08/2022</a></li>
+                        <li><a href="/">25/08/2022</a></li>
+                        <li><a href="/">26/08/2022 </a></li>
+                    </ul>
+                </li>
+                <li><a href="/">Pricing</a></li>
+                <li><a href="/">Contact</a></li>
+            </div>
+        </ul>
+    </nav>
+
+    <div class = "design">
+        <div class="section">
+            <label> Enter Your Name &nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <label>
+                <input type="text" name="guestname" required="" placeholder="Enter your name">
+                <span class="field-icon"><i class="fa fa-user"></i></span>
+            </label>
+        </div>
+
+        <div class="frm-row">
+            <div class="section colm colm6">
+                <label>Email Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp; &nbsp;&nbsp;&nbsp;</label>
+                <label>
+                    <input type="email" name="guestemail" required="" placeholder="Enter your email">
+                    <span class="field-icon"><i class="fa fa-envelope"></i></span>
+                </label>
+            </div>
+
+            <div class="section colm colm6">
+                <label>Telephone / Mobile &nbsp; : &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</label>
+                <lable>
+                    <input type="text" name="guestelephone" required="" placeholder="Enter your mobile no. ">
+                    <span class="field-icon"><i class="fa fa-phone-square"></i></span>
+                </lable>
+            </div>
+        </div>
+
+        <div class="frm-row">
+            <div class="section colm colm6">
+                <label>Number of Adults &nbsp;&nbsp; : &nbsp; &nbsp;&nbsp;&nbsp;</label>
+                <label>
+                    <input type="number" id="adults" required="" placeholder="Number of adults">
+                    <span class="field-icon"><i class="fa fa-users"></i></span>
+                </label>
+            </div><br>
+
+            <div class="section colm colm6">
+                <label>Number of Child &nbsp;&nbsp;&nbsp;&nbsp; : &nbsp; &nbsp;&nbsp;&nbsp; </label>
+                <label>
+                    <input type="number" id="children" required="" placeholder="Number of children">
+                    <span class="field-icon"><i class="fa fa-users"></i></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="frm-row">
+            <div class="section colm colm6">
+                <label>Check-in Date &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; : &nbsp; &nbsp;&nbsp;&nbsp; </label>
+                <label>
+                    <input type="text" required="" placeholder="mm/dd/yyyy">
+                    <span class="field-icon"><i class="fa fa-calendar"></i></span>
+                </label>
+            </div>
+
+            <div class="section colm colm6">
+                <label>Check-out Date &nbsp;&nbsp; &nbsp;&nbsp; : &nbsp; &nbsp;&nbsp;&nbsp; </lablestelephone>
+                    <lable>
+                        <input type="text" id="checkout" required="" placeholder="mm/dd/yyyy">
+                        <span class="field-icon"><i class="fa fa-calendar"></i></span>
+                    </lable>
+            </div>
+        </div>
+
+
+        <div class="container1" id = "demo">
+            <button type="submit" onclick = submit() class="cancelbtn"><a href = "submite.html"> Submit </a></button>
+
+        </div>
+    </div>
+
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>About<span>RoomMeet</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a>
+                |
+                <a href="#">Blog</a>
+                |
+                <a href="#">About</a>
+                |
+                <a href="#">Contact</a>
+            </p>
+
+            <p class="footer-company-name">© 2022 Eduonix Online Room Booking Pvt. Ltd.</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>I-404 - Gangna Nagar,
+                        Dev Ananat Hospital.</span>
+                    -250001</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 6386953577 </p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="ashwanichaurasiya6386@gmail.com">ashwanichaurasiya6386@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the company</span>
+                We offer best and clean room across visiting of tourist people
+                and i hope to all people stay here is feel very happy
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function submit () { 
+            document.getElementById("demo").innerHTML = "Booking Scuccessfully !!!!";
+        }
+
+    </script>
+</body>
+
+</html>
